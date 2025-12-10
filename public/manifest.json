@@ -1,0 +1,32 @@
+{
+    "name": "BaseCreator - Meme Token Creator",
+    "short_name": "BaseCreator",
+    "description": "Create and launch meme tokens on Base blockchain",
+    "version": "1.0.0",
+    "author": "BMAD Team",
+    "icon": "/icon.png",
+    "splash": {
+        "image": "/splash.png",
+        "backgroundColor": "#1a1a2e"
+    },
+    "home_url": "https://your-domain.com",
+    "frame": {
+        "version": "vNext",
+        "image": "/og-image.png",
+        "buttons": [
+            {
+                "label": "Create Token",
+                "action": "link",
+                "target": "https://your-domain.com"
+            }
+        ]
+    },
+    "permissions": [
+        "wallet"
+    ],
+    "categories": [
+        "defi",
+        "tools",
+        "social"
+    ]
+}

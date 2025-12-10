@@ -1,0 +1,29 @@
+{
+  "accountAssociation": {
+    "header": "WILL_BE_GENERATED_FROM_WARPCAST",
+    "payload": "WILL_BE_GENERATED_FROM_WARPCAST",
+    "signature": "WILL_BE_GENERATED_FROM_WARPCAST"
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "BaseCreator",
+    "subtitle": "Create meme tokens on Base in seconds",
+    "description": "Launch your own meme token on Base blockchain with custom artwork, fair launch mechanics, and instant liquidity",
+    "screenshotUrls": ["https://bmadv6.com/screenshots/create.png", "https://bmadv6.com/screenshots/tokens.png"],
+    "iconUrl": "https://bmadv6.com/icon.png",
+    "splashImageUrl": "https://bmadv6.com/splash.png",
+    "splashBackgroundColor": "#0052FF",
+    "homeUrl": "https://bmadv6.com",
+    "webhookUrl": "https://bmadv6.com/api/frame",
+    "primaryCategory": "defi",
+    "tags": ["meme", "token", "creator", "base", "defi"],
+    "heroImageUrl": "https://bmadv6.com/og-image.png",
+    "tagline": "Launch Memes on Base",
+    "ogTitle": "BaseCreator - Meme Token Creator",
+    "ogDescription": "Create and launch meme tokens on Base blockchain with custom artwork and instant liquidity",
+    "ogImageUrl": "https://bmadv6.com/og-image.png"
+  },
+  "baseBuilder": {
+    "ownerAddress": "0xYOUR_WALLET_ADDRESS_HERE"
+  }
+}
