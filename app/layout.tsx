@@ -20,6 +20,7 @@ export const metadata: Metadata = {
                 title: 'Create Token',
                 action: {
                     type: 'launch_miniapp',
+                    name: 'BaseCreator',
                     url: APP_URL,
                 },
             },
@@ -31,6 +32,7 @@ export const metadata: Metadata = {
                 title: 'Create Token',
                 action: {
                     type: 'launch_frame',
+                    name: 'BaseCreator',
                     url: APP_URL,
                 },
             },
