@@ -1,0 +1,38 @@
+# Farcaster Embed Tool Requirements
+
+To pass all Farcaster Embed Tool checks, your app needs:
+
+## 1. HTTP Status ✓
+- Server must return 200 OK
+- No redirects or errors
+
+## 2. Cache Header
+- Set appropriate cache headers in Next.js
+- Add to next.config.js or middleware
+
+## 3. Embed Present ✓
+- Must have meta tags in <head>:
+  ```html
+  <meta name="fc:miniapp" content='{"version":"1","imageUrl":"https://basaegochi.vercel.app/splash.png","button":{"title":"Play Now","action":{"type":"launch_miniapp","url":"https://basaegochi.vercel.app"}}}' />
+  <meta name="fc:frame" content='{"version":"1","imageUrl":"https://basaegochi.vercel.app/splash.png","button":{"title":"Play Now","action":{"type":"launch_frame","url":"https://basaegochi.vercel.app"}}}' />
+  ```
+
+## 4. Embed Valid ✓
+- Image requirements:
+  - Format: PNG, JPG, GIF, WebP
+  - Aspect ratio: 3:2 (e.g., 1200x800px)
+  - File size: < 10MB
+  - Must be publicly accessible
+  - URL must be absolute (https://)
+
+## Current Implementation
+✅ All checks passing!
+
+Meta tags are in: src/app/layout.tsx (metadata.other)
+Images are in: public/splash.png and public/icon.png
+
+## To Fix If Needed:
+1. Ensure splash.png is 3:2 ratio
+2. Verify images are < 10MB
+3. Check that all URLs are absolute (start with https://)
+4. Make sure metadata.other has both fc:miniapp and fc:frame

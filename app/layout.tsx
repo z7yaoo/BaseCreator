@@ -13,12 +13,28 @@ export const metadata: Metadata = {
     metadataBase: new URL(APP_URL),
     other: {
         'base:app_id': '6939a9f4e6be54f5ed71d527',
-        'fc:frame': 'vNext',
-        'fc:frame:image': `${APP_URL}/og-image.png`,
-        'fc:frame:image:aspect_ratio': '1.91:1',
-        'fc:frame:button:1': 'Create Token',
-        'fc:frame:button:1:action': 'link',
-        'fc:frame:button:1:target': APP_URL,
+        'fc:miniapp': JSON.stringify({
+            version: '1',
+            imageUrl: `${APP_URL}/frame-image.png`,
+            button: {
+                title: 'Create Token',
+                action: {
+                    type: 'launch_miniapp',
+                    url: APP_URL,
+                },
+            },
+        }),
+        'fc:frame': JSON.stringify({
+            version: '1',
+            imageUrl: `${APP_URL}/frame-image.png`,
+            button: {
+                title: 'Create Token',
+                action: {
+                    type: 'launch_frame',
+                    url: APP_URL,
+                },
+            },
+        }),
     },
     openGraph: {
         type: 'website',
