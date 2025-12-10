@@ -11,6 +11,8 @@
     "description": "Launch your own meme token on Base blockchain with custom artwork, fair launch mechanics, and instant liquidity",
     "screenshotUrls": ["https://basecreator.vercel.app/screenshots/create.png", "https://basecreator.vercel.app/screenshots/tokens.png"],
     "iconUrl": "https://basecreator.vercel.app/icon.png",
+    "imageUrl": "https://basecreator.vercel.app/og-image.png",
+    "buttonTitle": "Create Token",
     "splashImageUrl": "https://basecreator.vercel.app/splash.png",
     "splashBackgroundColor": "#0052FF",
     "homeUrl": "https://basecreator.vercel.app",
