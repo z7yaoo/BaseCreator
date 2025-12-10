@@ -5,13 +5,14 @@ import { Providers } from './providers'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://bmadv6.com'
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://basecreator.vercel.app'
 
 export const metadata: Metadata = {
-    title: 'BaseCreator - Meme Token Creator',
-    description: 'Create meme tokens on Base in seconds',
+    title: 'BaseCreator',
+    description: 'Create meme tokens on Base',
     metadataBase: new URL(APP_URL),
     other: {
+        'base:app_id': '6939a9f4e6be54f5ed71d527',
         'fc:frame': 'vNext',
         'fc:frame:image': `${APP_URL}/og-image.png`,
         'fc:frame:button:1': 'Create Token',
@@ -19,14 +20,14 @@ export const metadata: Metadata = {
         'fc:frame:button:1:target': APP_URL,
     },
     openGraph: {
-        title: 'BaseCreator - Meme Token Creator',
-        description: 'Create meme tokens on Base in seconds',
+        title: 'BaseCreator',
+        description: 'Create meme tokens on Base',
         images: ['/og-image.png'],
         url: APP_URL,
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'BaseCreator - Meme Token Creator',
+        title: 'BaseCreator',
         description: 'Create meme tokens on Base',
         images: ['/og-image.png'],
     },

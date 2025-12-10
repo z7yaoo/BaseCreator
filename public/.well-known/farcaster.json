@@ -1,29 +1,29 @@
 {
   "accountAssociation": {
-    "header": "WILL_BE_GENERATED_FROM_WARPCAST",
-    "payload": "WILL_BE_GENERATED_FROM_WARPCAST",
-    "signature": "WILL_BE_GENERATED_FROM_WARPCAST"
+    "header": "eyJmaWQiOjc0NTc1MCwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDJkNkQ2OTU5QTI4Q0Y2MjlCRjI0MjE1ZDYxZTJCQzdhMDhhNTI2RjYifQ",
+    "payload": "eyJkb21haW4iOiJiYXNlY3JlYXRvci52ZXJjZWwuYXBwIn0",
+    "signature": "UjG52PKM43QPrJQOz0vMldD0XwflFGr8E+bzvfuLM34UYUzbzJZvtbJ63a/W0GVXfaqUEKGhifTxL8z2dJ7mHxs="
   },
   "miniapp": {
     "version": "1",
     "name": "BaseCreator",
-    "subtitle": "Create meme tokens on Base in seconds",
+    "subtitle": "Create meme tokens on Base",
     "description": "Launch your own meme token on Base blockchain with custom artwork, fair launch mechanics, and instant liquidity",
-    "screenshotUrls": ["https://bmadv6.com/screenshots/create.png", "https://bmadv6.com/screenshots/tokens.png"],
-    "iconUrl": "https://bmadv6.com/icon.png",
-    "splashImageUrl": "https://bmadv6.com/splash.png",
+    "screenshotUrls": ["https://basecreator.vercel.app/screenshots/create.png", "https://basecreator.vercel.app/screenshots/tokens.png"],
+    "iconUrl": "https://basecreator.vercel.app/icon.png",
+    "splashImageUrl": "https://basecreator.vercel.app/splash.png",
     "splashBackgroundColor": "#0052FF",
-    "homeUrl": "https://bmadv6.com",
-    "webhookUrl": "https://bmadv6.com/api/frame",
-    "primaryCategory": "defi",
-    "tags": ["meme", "token", "creator", "base", "defi"],
-    "heroImageUrl": "https://bmadv6.com/og-image.png",
+    "homeUrl": "https://basecreator.vercel.app",
+    "webhookUrl": "https://basecreator.vercel.app/api/frame",
+    "primaryCategory": "finance",
+    "tags": ["meme", "token", "creator", "base", "finance"],
+    "heroImageUrl": "https://basecreator.vercel.app/og-image.png",
     "tagline": "Launch Memes on Base",
-    "ogTitle": "BaseCreator - Meme Token Creator",
+    "ogTitle": "BaseCreator",
     "ogDescription": "Create and launch meme tokens on Base blockchain with custom artwork and instant liquidity",
-    "ogImageUrl": "https://bmadv6.com/og-image.png"
+    "ogImageUrl": "https://basecreator.vercel.app/og-image.png"
   },
   "baseBuilder": {
-    "ownerAddress": "0xYOUR_WALLET_ADDRESS_HERE"
+    "ownerAddress": "0x8ad064D799997Ed3061E01e9bC87487BdafA652F"
   }
 }
